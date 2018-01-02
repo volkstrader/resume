@@ -1,0 +1,21 @@
+{{#overview}}
+<section class="general">
+    <div>{{description}}</div>    
+    <ul class="responsibilities">
+        {{#responsibilities}}
+        {{>list_item}}
+        {{/responsibilities}}
+    </ul>
+<section>
+{{#sections}}
+<section>
+    <div class="heading">{{name}}</div>
+    <ul class="cols2">
+        {{#items}}
+        {{>list_item}}
+        {{/items}}
+    </ul>
+</section>
+{{/sections}}
+{{>resume_skills}}
+{{/overview}}

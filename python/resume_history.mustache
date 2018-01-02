@@ -1,0 +1,13 @@
+{{#history}}
+<div class="row">
+    <div class="left-col">
+        <span class="job-title">{{title}},</span>
+        <span class="job-company">{{company}},</span>
+        <span class="job-office">{{office}},</span>
+    </div>
+    <div class="job-span right-col">
+        <span class="job-start">{{#start}}{{month}}/{{year}}{{/start}}-</span>
+        <span class="job-end">{{#end}}{{month}}/{{year}}{{/end}}{{^end}}Present{{/end}}</span>
+    </div>
+</div>
+{{/history}}

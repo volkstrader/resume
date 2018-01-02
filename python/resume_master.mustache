@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="theme.css"></link>
+<title>{{profileName}} Resume</title>
+</head>
+
+<body>
+    <header>
+        <div class="title">{{profileName}}</div>
+        <div class="contact">
+            <span class="star">{{phone}}</span>
+            <span class="star"><a href="mailto:{{email}}">{{email}}</a></span>
+            <span class="star"><a href="{{linkedin}}" target="_blank">{{linkedin}}</a></span>
+            <span><a href="{{github}}" target="_blank">{{github}}</a></span>
+        <div>
+    </header>
+    <main>
+        <section class="overview">
+            {{>resume_overview}}
+        </section>
+        <section class="history">
+            <div class="heading">Employment History</div>
+            {{>resume_history}}
+        </section>
+        <section class="experiences">
+            <div class="heading">Recent Professional Experiences</div>
+            {{>resume_experiences}}
+        </section>
+        <section class="recognitions">
+            <div class="heading">Recognitions</div>
+            {{>resume_recognitions}}
+        </section>
+        <section class="education">
+            <div class="heading">Education</div>
+            {{>resume_education}}
+        </section>
+    </main>
+</body>
+
+</html>
