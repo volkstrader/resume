@@ -43,46 +43,46 @@ overview:
   skills:
     - key: Platforms
       values:
-      - name: Windows
-      - name: Linux
-      - name: AWS
-      - name: Docker
-      - name: Team Foundation Server 2017 (TFS)
-      - name: Confluence
-      - name: Jira
-      - name: Salesforce
+      - name: Windows (5)
+      - name: Linux (2)
+      - name: AWS (2)
+      - name: Docker (1)
+      - name: Team Foundation Server 2017 (TFS) (5)
+      - name: Confluence (3)
+      - name: Jira (1)
+      - name: Salesforce (2)
     - key: Programming Frameworks
       values: 
-      - name: .Net
+      - name: .Net (5)
         details:
           - C# (.Net dotnetcore, .Net Standard)
           - Meta-programming
           - Reflection
           - Managed Extensibility Framework (MEF)
           - Autofac
-      - name: javascript
+      - name: javascript (3)
         details: 
           - node.js
           - RxJs
           - AngularJS
           - Data-Driven-Document (D3)
-      - name: UML
-      - name: Python
-      - name: Powershell
-      - name: Bash
-      - name: T-SQL
-      - name: GoLang
-      - name: Salesforce-Apex
+      - name: UML (4)
+      - name: Python (2)
+      - name: Powershell (2)
+      - name: Bash (1)
+      - name: T-SQL (4)
+      - name: GoLang (1)
+      - name: Salesforce-Apex (1)
     - key: Databases
       values:
-      - name: MS SQL Server
-      - name: MySQL
-      - name: DynamoDb
-      - name: Redis
-      - name: ElasticSearch
-      - name: Couchbase
-      - name: MongoDb
-      - name: PostgreSQL
+      - name: MS SQL Server (5)
+      - name: MySQL (1)
+      - name: DynamoDb (3)
+      - name: Redis (2)
+      - name: ElasticSearch (2)
+      - name: Couchbase (1)
+      - name: MongoDb (1)
+      - name: PostgreSQL (1)
     - key: AWS Services
       values:
       - name: API Gateway

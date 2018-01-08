@@ -1,8 +1,26 @@
 ---
 - name: Client API on AWS API Gateway
   description: > 
-    Client API will allow ETC to pursue new line of security clearing business from online brokers,
-    and integrate their trading platforms with ETC back office
+    Architected a Client API which will allow ETC to pursue new line of security clearing business from online brokers,
+    and integrate their trading platforms with ETC back office; pilot project for explorering AWS cloud platform option
+  situation: >
+    ETC back office system is implemented with MS SQL Database system, and FTP is the main IO with external system.
+    I was assigned to architect a Client API for clients to integrate their platform with ETC back office system.  
+    The COO of IT is avocating using cloud technology while the CEO is having some reserve for cloud security.  
+    The project was planned to be released on mid-January of 2018.
+  action: >
+    I have designed the system that address both concerns and provided the best customer experience in terms of 
+    reliability, performance, security and ease of integration.
+    First I drafted a proposal to outline the high level system overview, and compare designs using AWS API Gateway and 
+    on premise WebAPI.  After AWS design was selected, I wrote user stories to describes system requirements and created 
+    the architecture design document.
+    The implementation has 4 sprints, 1st sprint focus on basic end-to-end data flow from API Gateway request, all to way to back office database;
+    2nd sprint focus on key feature implementation, such as API security, data encryption, JSON schema, workflow state transistion
+    3rd sprint focus on system configuration and alerts
+    4th sprint focus on integration testing, CI, bug fixes
+    At the end of each sprint, a demo is scheduled to communicate progress and request for input
+  result:
+    First 2 sprints were completed on time, and then laid off pull me out of the project
   stories:
     - topic: Architected an API framework on AWS with the following key requirements
       score: 2
@@ -35,7 +53,7 @@
     - topic: Worker processes are implemented with .Net 4.7 accessing data on MS SQL Server
       score: 4
 - name: Continuous Integration (CI) Implementation
-  description: Defined and applied new Application Lifecycle Management process to development team (dev team), using Team Foundation Server 2017
+  description: Defined and applied new Application Lifecycle Management process for development team (dev team), using Team Foundation Server 2017
   stories:
     - topic: Web application CI
       score: 2
@@ -90,7 +108,7 @@
     - topic: Demonstrated basic Kafka functionalities with Python
       score: 4
 - name: System Architecture Assessment
-  description: Documented the current system architecture and proposed a NextGen vision
+  description: Documented the current system architecture and proposed a NextGen vision, the resulting document was used for FINRA audit
   stories:
     - topic: Documented the current system architecture with different views
       score: 3
