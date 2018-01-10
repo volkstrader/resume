@@ -1,6 +1,7 @@
 ---
 profile:
   name: Chuck Chau
+  home: Walnut, Los Angeles, CA
   phone: (626) 233-1319
   email: cchau2@gmail.com
   linkedin: https://www.linkedin.com/in/cchau2
@@ -15,74 +16,100 @@ overview:
     responsibilities:
       - { item: Interpreting stakeholders needs into user stories and acceptance criteria }
       - { item: Giving technical advice to management team }
-      - { item: Prototyping architecture framework solution }
+      - { item: Hands-on implementating architecture framework prototype / solution }
       - { item: Writing technical documentation and user guides }
       - { item: Coaching technical staffs on new technologies and processes }
       - { item: Coordinating internal and external technology resources to realize deliverables }
   sections:
     - name: Core Competencies
       items: 
-        - { item: Software System Architecture }
-        - { item: IT Strategic Planning }
-        - { item: Microservices }
-        - { item: Continuous Integration (CI) Automation }
-        - { item: Application Lifecycle Management }
-        - { item: Serverless Design and Implementation }
-    - name: Design Principles
-      items:
-        - { item: Customer / User Oriented }
-        - { item: Workflow Decoupling }
-        - { item: Separation of Concern }
-        - { item: Dependency Inversion }
-        - { item: Single Point of Truth }
-        - { item: Convention over Configuration }
-        - { item:  Standard over Proprietary }
-        - { item: KISS - Keep It Small and Simple }
-        - { item: MVP - Minimum Viable Product }
-        - { item: DRY - Don’t Repeat Yourself }
+        - item: Software System Architecture
+        - item: Object Orientated Programming
+        - item: IT Strategic Planning
+        - item: Microservices
+        - item: Continuous Integration (CI) Automation
+        - item: Application Lifecycle Management
+        - item: Serverless Design and Implementation
+#    - name: Design Principles
+#      items:
+#        - { item: Customer / User Oriented }
+#        - { item: Workflow Decoupling }
+#        - { item: Separation of Concern }
+#        - { item: Dependency Inversion }
+#        - { item: Single Point of Truth }
+#        - { item: Convention over Configuration }
+#        - { item: Standard over Proprietary }
+#        - { item: KISS - Keep It Small and Simple }
+#        - { item: MVP - Minimum Viable Product }
+#        - { item: DRY - Don’t Repeat Yourself }
   skills:
     - key: Platforms
       values:
-      - name: Windows (5)
-      - name: Linux (2)
-      - name: AWS (2)
-      - name: Docker (1)
-      - name: Team Foundation Server 2017 (TFS) (5)
-      - name: Confluence (3)
-      - name: Jira (1)
-      - name: Salesforce (2)
+      - name: Windows
+        score: 5
+      - name: Linux
+        score: 2
+      - name: AWS
+        score: 3
+      - name: Docker
+        score: 1
+      - name: Team Foundation Server 2017 (TFS)
+        score: 5
+      - name: Git
+        score: 3
+      - name: Confluence
+        score: 3
+      - name: Jira
+        score: 1
+      - name: Salesforce
+        score: 2
     - key: Programming Frameworks
       values: 
-      - name: .Net (5)
+      - name: .Net
+        score: 5
         details:
           - C# (.Net dotnetcore, .Net Standard)
           - Meta-programming
           - Reflection
           - Managed Extensibility Framework (MEF)
           - Autofac
-      - name: javascript (3)
+      - name: javascript
+        score: 4
         details: 
           - node.js
           - RxJs
           - AngularJS
           - Data-Driven-Document (D3)
-      - name: UML (4)
-      - name: Python (2)
-      - name: Powershell (2)
-      - name: Bash (1)
-      - name: T-SQL (4)
-      - name: GoLang (1)
-      - name: Salesforce-Apex (1)
+      - name: UML
+        score: 4
+      - name: Python
+        score: 2
+      - name: Powershell
+        score: 3
+      - name: Bash
+        score: 1
+      - name: T-SQL
+        score: 4
+      - name: Salesforce-Apex
+        score: 2
     - key: Databases
       values:
-      - name: MS SQL Server (5)
-      - name: MySQL (1)
-      - name: DynamoDb (3)
-      - name: Redis (2)
-      - name: ElasticSearch (2)
-      - name: Couchbase (1)
-      - name: MongoDb (1)
-      - name: PostgreSQL (1)
+      - name: MS SQL Server
+        score: 4
+      - name: MySQL
+        score: 1
+      - name: DynamoDb
+        score: 3
+      - name: Redis
+        score: 2
+      - name: ElasticSearch
+        score: 2
+      - name: Couchbase
+        score: 1
+      - name: MongoDb
+        score: 1
+      - name: PostgreSQL
+        score: 1
     - key: AWS Services
       values:
       - name: API Gateway
@@ -110,7 +137,7 @@ history:
   - id: etcpt
     company: ETC Processing Technologies LLC
     office: Los Angeles, CA
-    title: Associate Director, Software Architecture, IT Development Commitee
+    title: Software Architect / Senior Software Engineer
     start:
       year: 2016
       month: 12

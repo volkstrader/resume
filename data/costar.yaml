@@ -2,15 +2,18 @@
 - name: Enterprise Ecommerce Pricing Engine / Service
   description: >
     Designed and implemented an enterprise solution for calculating shopping cart and generating price sheet, 
-    with multi-dimentional price plan and discount schema
+    with multi-dimentional priceing model, discount schema, historical and future pricing support; leading to 
+    reduction in developer time consumed for pricing update from days to minutes
 - name: Marketplace Ad Creative Publishing 2.0
   description: >
     Acted in the role of technical lead to refactor ad creative editing workflow, 
-    utilized technologies, such as SVG, D3, Akamai, browser canvas
+    utilized technologies, such as SVG, D3, Akamai, browser canvas;
+    leading to improve overall performance and artifacts portability
 - name: Ecommerce tracking using Google Universal Analytics (UA) with Google Tag Manager (GTM)
   description: >
-    Designed and implemented an integrated solution to track e-commerce activities on LoopNet.com website using GA via GTM
-- name: Marketplace Ad System integrate with Google DFP
+    Designed and implemented an integrated solution to track e-commerce activities on LoopNet.com website using UA with GTM,
+    enabling e-commerce conversion funnel analytic
+- name: Marketplace Ad System powered by Google DFP
   description: >
     Designed and implemented an ad platform, integrated with Google DFP, for selling ad spaces on LoopNet.com
 - name: Cityfeet.com and Loopnet.com Google Universal Analytic (UA)
@@ -19,4 +22,5 @@
     such as clicks, social sharing, using Google Universal Analytic (UA)
 - name: Cityfeet.com Enhancements
   description: >
-    Upgrade UI framework and improve SEO results for cityfeet.com
+    Upgrade UI framework using ASP.Net MVC 2 and improve SEO results for cityfeet.com, 
+    recovered over the impact by Google Panda update

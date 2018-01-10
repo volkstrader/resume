@@ -32,6 +32,9 @@ class ResumeMaster(object):
     def profileName(self):
         return self.profile()['name']
 
+    def home(self):
+        return self.profile()['home']
+
     def phone(self):
         return self.profile()['phone']
 

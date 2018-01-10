@@ -14,7 +14,7 @@
     First I drafted a proposal to outline the high level system overview, and compare designs using AWS API Gateway and 
     on premise WebAPI.  After AWS design was selected, I wrote user stories to describes system requirements and created 
     the architecture design document.
-    The implementation has 4 sprints, 1st sprint focus on basic end-to-end data flow from API Gateway request, all to way to back office database;
+    The implementation has 4 sprints, 1st sprint focus on MVP end-to-end workflow from API Gateway request, all to way to back office database;
     2nd sprint focus on key feature implementation, such as API security, data encryption, JSON schema, workflow state transistion
     3rd sprint focus on system configuration and alerts
     4th sprint focus on integration testing, CI, bug fixes
@@ -53,7 +53,9 @@
     - topic: Worker processes are implemented with .Net 4.7 accessing data on MS SQL Server
       score: 4
 - name: Continuous Integration (CI) Implementation
-  description: Defined and applied new Application Lifecycle Management process for development team (dev team), using Team Foundation Server 2017
+  description: >
+    Defined and applied new Application Lifecycle Management process for development team (dev team), using Team Foundation Server 2017 with Git;
+    targeted to fully automated build and deploy of both application and datbase changes to different environment
   stories:
     - topic: Web application CI
       score: 2
@@ -90,23 +92,14 @@
         - topic: Hosted lunch and learn sessions to coach dev team to migrate from TFVC to Git for both application and database projects
           score: 2
 - name: IT Strategic Planning / Roadmap
-  description: CEO appointed to lead the effort to create IT Strategic Plan and Roadmap process
+  description: CEO appointed to lead the effort to create IT Strategic Plan / Roadmap process and policy; documentation templates were create in Confluence, ready for 2018 planning
   stories:
     - topic: Created iterative 2-year strategic plan and quarterly roadmap process template
       score: 1
     - topic: Strategic plan defines IT mission, vision, principles, goals and objectives
       score: 1
     - topic: Roadmap plan undertakes projects in certain quarters to reach the strategic goal guided by principles 
-      score: 1
-- name: Kafka / CoreOS
-  description: Creating a prototype to convert real time trading/settlement data coming from multiple sources into Kafka data stream
-  stories:
-    - topic: Created bash script to automate CoreOS VM provisioning on Hyper-V
-      score: 2
-    - topic: Hosted Kafka instances on docker containers
-      score: 2
-    - topic: Demonstrated basic Kafka functionalities with Python
-      score: 4
+      score: 1      
 - name: System Architecture Assessment
   description: Documented the current system architecture and proposed a NextGen vision, the resulting document was used for FINRA audit
   stories:
@@ -134,7 +127,8 @@
           score: 3
 - name: Tooling Assessment / Recommendation
   description: >
-    Identified and recommended new tooling software in the area of Team Communication, Project Management, Application Lifecycle Management, and Development
+    Identified and recommended new tooling software in the area of Team Communication, Project Management, Application Lifecycle Management, 
+    and Development; leading to improving IT workflow and tracability
   stories:
     - topic: Recommended, deployed and promoted on-premise Confluence as IT knowledge wiki
       score: 2

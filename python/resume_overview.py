@@ -22,8 +22,14 @@ class Skill(object):
 
         for v in values:
             if 'details' in v:
-                s = { 'name': v['name'], 'value': d.join(v['details']) }
+                s = { 'name': v['name'], 'score': v['score'], 'value': d.join(v['details']) }
                 self.items.append(s)
         
-        value = d.join(map(lambda v: v['name'], filter(lambda v: 'details' not in v , values)))
+        value = d.join(map(lambda v: self.format_value(v), filter(lambda v: 'details' not in v , values)))
         self.items.append({ 'value': value })
+
+    def format_value(self, v):
+        if 'score' not in v:
+            return v['name']
+        else:
+            return v['name'] + '<span class="score">(' + str(v['score']) + ')</span>'

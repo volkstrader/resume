@@ -76,6 +76,12 @@ section.experiences .job-experience .projects {
 section.experiences .job-experience .projects .name {
     text-decoration: underline;
 }
+section.recognitions {
+    font-size: small;
+}
+section.education {
+    font-size: small;
+}
 
 .sub {
     font-size: small;
@@ -100,7 +106,26 @@ section.experiences .job-experience .projects .name {
     float: right;
     text-align: right;
 }
+.row .left-col-half {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.row .right-col-half {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
 
 span.star:after {
     content: " \2726";
+}
+
+.score {
+    font-size: smaller;
+}
+
+.remark {
+    font-size: normal;
+    font-weight: normal;
 }
