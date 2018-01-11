@@ -23,14 +23,12 @@ overview:
   sections:
     - name: Core Competencies
       items: 
-        - item: Software System Architecture
-        - item: Object Oriented Programming
-        - item: IT Strategic Planning
-        - item: Microservices
-        - item: WebAPI Framework
+        - item: AWS Architecture
+        - item: Microservices / Docker
         - item: Continuous Integration (CI) Automation
-        - item: Application Lifecycle Management
         - item: Serverless Design and Implementation
+        - item: IT Strategic Planning
+        - item: Application Lifecycle Management
 #    - name: Design Principles
 #      items:
 #        - { item: Customer / User Oriented }
@@ -44,28 +42,29 @@ overview:
 #        - { item: MVP - Minimum Viable Product }
 #        - { item: DRY - Don’t Repeat Yourself }
   skills:
-    - key: Platforms
+    - key: AWS
       values:
-      - name: Windows
-        score: 5
-      - name: Linux
-        score: 2
-      - name: AWS
-        score: 3
-      - name: Docker
-        score: 1
-      - name: Team Foundation Server 2017 (TFS)
-        score: 5
-      - name: Git
-        score: 3
-      - name: Confluence
-        score: 3
-      - name: Jira
-        score: 1
-      - name: Salesforce
-        score: 2
+      - name: CloudFormation
+      - name: Lambda
+      - name: API Gateway
+      - name: DynamoDb
+      - name: S3
+      - name: SNS
+      - name: SQS
+      - name: Kinesis
+      - name: ECS / Fargate
+      - name: EC2
+      - name: RDS
+      - name: Step Functions
+      - name: CodePipeline
+      - name: CodeBuild
+      - name: CodeDeploy
     - key: Programming Frameworks
       values: 
+      - name: Go
+        score: 3
+        details:
+          - ""
       - name: .Net
         score: 5
         details:
@@ -93,6 +92,30 @@ overview:
         score: 4
       - name: Salesforce-Apex
         score: 2
+    - key: Platforms
+      values:
+      - name: AWS
+        score: 4
+      - name: GCP
+        score: 2
+      - name: Azure
+        score: 1
+      - name: Docker
+        score: 3
+      - name: Linux
+        score: 2
+      - name: Windows
+        score: 5
+      # - name: Team Foundation Server 2017 (TFS)
+      #   score: 5
+      - name: Git
+        score: 3
+      # - name: Confluence
+      #   score: 3
+      # - name: Jira
+      #   score: 1
+      - name: Salesforce
+        score: 3
     - key: Databases
       values:
       - name: MS SQL Server
@@ -103,7 +126,7 @@ overview:
         score: 3
       - name: Redis
         score: 2
-      - name: ElasticSearch
+      - name: ElasticSearch / LogStash / FileBeat
         score: 2
       - name: Couchbase
         score: 1
@@ -111,30 +134,23 @@ overview:
         score: 1
       - name: PostgreSQL
         score: 1
-    - key: AWS Services
-      values:
-      - name: API Gateway
-      - name: Beanstalk
-      - name: Cognito
-      - name: DynamoDb
-      - name: EC2
-      - name: IAM
-      - name: Lambda
-      - name: RDS
-      - name: KMS
-      - name: S3
-      - name: SNS
-      - name: SQS
     - key: Services Packages
       values:
-      - name: Redgate SQLClone
-      - name: Redgate SQL Automation with Powershell
+      # - name: Redgate SQLClone
+      # - name: Redgate SQL Automation with Powershell
       - name: SVG
       - name: Google DoubleClick for Publisher (DFP)
       - name: Google Analytic (Universal Analytic)
       - name: Google Tag Manager (GTM)
       - name: Twilio
 history:
+  - id: bitcentral
+    company: Bitcentral, Inc
+    office: Newport Beach, CA
+    title: Principal Software Engineer
+    start:
+      year: 2018
+      month: 1    
   - id: etcpt
     company: ETC Processing Technologies LLC
     office: Los Angeles, CA
@@ -155,46 +171,46 @@ history:
     end:
       year: 2016
       month: 12
-  - id: msb.2
-    company: Marshall & Swift/Boeckh (MSB)
-    office: Los Angeles, CA
-    title: Technical Lead/Architect
-    start:
-      year: 2010
-      month: 7
-    end:
-      year: 2011
-      month: 4
-  - id: gdc
-    company: Green Dot Corporation (GDC)
-    office: Monrovia, CA
-    title: Senior Software Engineer
-    start:
-      year: 2008
-      month: 4
-    end:
-      year: 2010
-      month: 7
-  - id: msb
-    company: Marshall & Swift/Boeckh (MSB)
-    office: Los Angeles, CA
-    title: Senior Software Engineer
-    start:
-      year: 2004
-      month: 4
-    end:
-      year: 2008
-      month: 4
-  - id: pst
-    company: Prospect Science and Technology (PST)
-    office: Rosemead, CA
-    title: Software Engineer
-    start:
-      year: 1998
-      month: 9
-    end:
-      year: 2003
-      month: 3
+  # - id: msb.2
+  #   company: Marshall & Swift/Boeckh (MSB)
+  #   office: Los Angeles, CA
+  #   title: Technical Lead/Architect
+  #   start:
+  #     year: 2010
+  #     month: 7
+  #   end:
+  #     year: 2011
+  #     month: 4
+  # - id: gdc
+  #   company: Green Dot Corporation (GDC)
+  #   office: Monrovia, CA
+  #   title: Senior Software Engineer
+  #   start:
+  #     year: 2008
+  #     month: 4
+  #   end:
+  #     year: 2010
+  #     month: 7
+  # - id: msb
+  #   company: Marshall & Swift/Boeckh (MSB)
+  #   office: Los Angeles, CA
+  #   title: Senior Software Engineer
+  #   start:
+  #     year: 2004
+  #     month: 4
+  #   end:
+  #     year: 2008
+  #     month: 4
+  # - id: pst
+  #   company: Prospect Science and Technology (PST)
+  #   office: Rosemead, CA
+  #   title: Software Engineer
+  #   start:
+  #     year: 1998
+  #     month: 9
+  #   end:
+  #     year: 2003
+  #     month: 3
 education:
   - school: California State Polytechnic University, Pomona
     degree: B.S. Computer Science
