@@ -2,7 +2,7 @@
 - name: Enterprise Ecommerce Pricing Engine / Service
   description: >
     Designed and implemented an enterprise solution for calculating shopping cart and generating price sheet, 
-    with multi-dimentional priceing model, discount schema, historical and future pricing support; leading to 
+    with multi-dimensional pricing model, discount schema, historical and future pricing support; leading to 
     reduction in developer time consumed for pricing update from days to minutes
 - name: Marketplace Ad Creative Publishing 2.0
   description: >
@@ -18,7 +18,7 @@
     Designed and implemented an ad platform, integrated with Google DFP, for selling ad spaces on LoopNet.com
 - name: Cityfeet.com and Loopnet.com Google Universal Analytic (UA)
   description: >
-    Designed and implemented a solution to track user behavioral data,
+    Designed and implemented a solution to track user behavior data,
     such as clicks, social sharing, using Google Universal Analytic (UA)
 - name: Cityfeet.com Enhancements
   description: >

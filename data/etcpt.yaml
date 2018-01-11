@@ -2,7 +2,7 @@
 - name: Client API on AWS API Gateway
   description: > 
     Architected a Client API which will allow ETC to pursue new line of security clearing business from online brokers,
-    and integrate their trading platforms with ETC back office; pilot project for explorering AWS cloud platform option
+    and integrate their trading platforms with ETC back office; pilot project for exploring AWS cloud platform option
   situation: >
     ETC back office system is implemented with MS SQL Database system, and FTP is the main IO with external system.
     I was assigned to architect a Client API for clients to integrate their platform with ETC back office system.  
@@ -55,7 +55,7 @@
 - name: Continuous Integration (CI) Implementation
   description: >
     Defined and applied new Application Lifecycle Management process for development team (dev team), using Team Foundation Server 2017 with Git;
-    targeted to fully automated build and deploy of both application and datbase changes to different environment
+    targeted to fully automated build and deploy of both application and database changes to different environment
   stories:
     - topic: Web application CI
       score: 2
@@ -128,7 +128,7 @@
 - name: Tooling Assessment / Recommendation
   description: >
     Identified and recommended new tooling software in the area of Team Communication, Project Management, Application Lifecycle Management, 
-    and Development; leading to improving IT workflow and tracability
+    and Development; leading to improving IT workflow and accountability
   stories:
     - topic: Recommended, deployed and promoted on-premise Confluence as IT knowledge wiki
       score: 2

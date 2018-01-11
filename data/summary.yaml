@@ -16,7 +16,7 @@ overview:
     responsibilities:
       - { item: Interpreting stakeholders needs into user stories and acceptance criteria }
       - { item: Giving technical advice to management team }
-      - { item: Hands-on implementating architecture framework prototype / solution }
+      - { item: Hands-on coding architecture framework prototype / solution }
       - { item: Writing technical documentation and user guides }
       - { item: Coaching technical staffs on new technologies and processes }
       - { item: Coordinating internal and external technology resources to realize deliverables }
@@ -24,7 +24,7 @@ overview:
     - name: Core Competencies
       items: 
         - item: Software System Architecture
-        - item: Object Orientated Programming
+        - item: Object Oriented Programming
         - item: IT Strategic Planning
         - item: Microservices
         - item: WebAPI Framework
@@ -167,7 +167,7 @@ history:
       month: 4
   - id: gdc
     company: Green Dot Corporation (GDC)
-    office: Morovia, CA
+    office: Monrovia, CA
     title: Senior Software Engineer
     start:
       year: 2008
