@@ -101,7 +101,7 @@
     - topic: Roadmap plan undertakes projects in certain quarters to reach the strategic goal guided by principles 
       score: 1      
 - name: System Architecture Assessment
-  description: Documented the current system architecture and proposed a next generation vision, the resulting document was used for FINRA audit
+  description: Documented the current system architecture and proposed a next generation vision, the resulting document was used for FINRA audit and training material for IT onboarding
   stories:
     - topic: Documented the current system architecture with different views
       score: 3
@@ -114,7 +114,7 @@
           score: 3
         - topic: Application development lifecycle
           score: 3
-    - topic: The resulting system architecture document was used for FINRA audit
+    - topic: The resulting system architecture document was used for FINRA audit and training material for IT onboarding
       score: 2
     - topic: Created a NextGen System Architecture vision document using microservices methodology with on premise Azure Service Fabric
       score: 2
