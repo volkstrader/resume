@@ -7,6 +7,7 @@ I store my experiences data in detail with yaml files, and then generate differe
 ## Resumes
 + [Standard 2 pages Resume (html)](http://htmlpreview.github.io/?https://github.com/volkstrader/resume/blob/master/python/resume.html)
 + [Standard 2 pages Resume (pdf)](https://github.com/volkstrader/resume/blob/master/Chuck%20Chau%20Resume%20Standard.pdf)
++ [Standard 2 pages Resume (docx)](https://github.com/volkstrader/resume/blob/master/Chuck%20Chau%20Resume%20Standard.docx)
 
 ## Usage
 ### Generate html
