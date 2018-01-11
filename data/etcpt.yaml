@@ -92,7 +92,7 @@
         - topic: Hosted lunch and learn sessions to coach dev team to migrate from TFVC to Git for both application and database projects
           score: 2
 - name: IT Strategic Planning / Roadmap
-  description: CEO appointed to lead the effort to create IT Strategic Plan / Roadmap process and policy; documentation templates were create in Confluence, ready for 2018 planning
+  description: CEO appointed to lead the effort to create IT Strategic Plan / Roadmap process and policy; documentation templates were created in Confluence, ready for 2018 planning
   stories:
     - topic: Created iterative 2-year strategic plan and quarterly roadmap process template
       score: 1
@@ -101,7 +101,7 @@
     - topic: Roadmap plan undertakes projects in certain quarters to reach the strategic goal guided by principles 
       score: 1      
 - name: System Architecture Assessment
-  description: Documented the current system architecture and proposed a NextGen vision, the resulting document was used for FINRA audit
+  description: Documented the current system architecture and proposed a next generation vision, the resulting document was used for FINRA audit
   stories:
     - topic: Documented the current system architecture with different views
       score: 3
@@ -127,7 +127,7 @@
           score: 3
 - name: Tooling Assessment / Recommendation
   description: >
-    Identified and recommended new tooling software in the area of Team Communication, Project Management, Application Lifecycle Management, 
+    Identified and recommended new tooling software for Team Communication, Project Management, Application Lifecycle Management, 
     and Development; leading to improving IT workflow and accountability
   stories:
     - topic: Recommended, deployed and promoted on-premise Confluence as IT knowledge wiki
