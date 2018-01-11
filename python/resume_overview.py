@@ -32,4 +32,4 @@ class Skill(object):
         if 'score' not in v:
             return v['name']
         else:
-            return v['name'] + '<span class="score">(' + str(v['score']) + ')</span>'
+            return v['name'] + '<span class="score"> (' + str(v['score']) + ')</span>'
