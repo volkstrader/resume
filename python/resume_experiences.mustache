@@ -7,7 +7,7 @@
     <div class="projects">
         {{#projects}}
         <div>
-            <div class="name">{{name}}</div>
+            <div class="name">{{#url}}<a href="{{url}}">{{name}}</a>{{/url}}{{^url}}{{name}}{{/url}}</div>
             <div class="description">{{description}}</div>
         </div>
         {{/projects}}
