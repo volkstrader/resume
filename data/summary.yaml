@@ -45,7 +45,7 @@ overview:
     - key: AWS
       values:
       - name: CloudFormation
-      - name: Lambda
+      - name: Lambda / SAM
       - name: API Gateway
       - name: DynamoDb
       - name: S3
@@ -73,12 +73,13 @@ overview:
           - Reflection
           - Managed Extensibility Framework (MEF)
           - Autofac
-      - name: javascript
+      - name: javascript/Typescript
         score: 4
         details: 
           - node.js
           - RxJs
           - AngularJS
+          - ReactJS
           - Data-Driven-Document (D3)
       - name: UML
         score: 4

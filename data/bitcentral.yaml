@@ -1,8 +1,24 @@
 ---
-- name: FUEL Video Streaming
+- name: FUEL Video Streaming Engine
   url: https://bitcentral.com/product/fuel/
   description: >
-    Lorem ipsum dolor sit amet, id eum vidisse prompta democritum. Id habeo dolor eos, nominati gloriatur 
-    scribentur pri te, an vis paulo partiendo voluptatum. Simul soluta oportere ei sed, id meis tantas quo. Mea
-    tota nihil ubique no. Dicant conclusionemque est et, porro verear tibique id pro, soleat menandri platonem quo ne. 
-    Et eos graeci meliore. Has ut semper suscipit inciderint, mea soluta facilisi ei, vel et duis dolorem luptatum.
+    Developed HLS streaming engine components in Go, powered by AWS ECS Fargate, DynamoDB, and ElasticCache.
+- name: FUEL Media Processing Framework
+  description: >
+    Taking the initiative to address the ad processing backlog issue, prototyped a highly scalable solution using SNS, SQS 
+    and Step Function; to start a new design discussion.  Learned from the prototype, implemented a new processing 
+    microservice framework not only comply to business requirement, but also having the goals of 
+    highly scalable, efficient, simple and transparent.
+- name: SpotX Video Ad Integration
+  description: >
+    Implemented an ad processing pipline integrated with SpotX Video Ad platform to support ad video delivery to 
+    HLS streaming engine.  The workflow requests VAST from ad platform API, downlaod the mp4 ad content, convert the video file
+    into Transport Stream - ts files, and then save the ts files to S3.
+- name: Local Dev Docker Stack
+  description: >
+    Created docker-compose scripts to containerize FUEL subsystems, which allow running the 
+    FUEL eco-system with developing branch code on local dev box.
+- name: FUEL Analytic Schedule Event Generator
+  description: >
+    Created serverless Lambda application invoked by CloudWatch schedule event.
+    The Lambda applications can be configured to call the Analytic API or send message to queue listened by Analytic processor.

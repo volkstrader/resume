@@ -47,7 +47,7 @@
                     <tr>
                         <th>AWS</th>
                         <td><div>
-    CloudFormation, Lambda, API Gateway, DynamoDb, S3, SNS, SQS, Kinesis, ECS / Fargate, EC2, RDS, Step Functions, CodePipeline, CodeBuild, CodeDeploy
+    CloudFormation, Lambda / SAM, API Gateway, DynamoDb, S3, SNS, SQS, Kinesis, ECS / Fargate, EC2, RDS, Step Functions, CodePipeline, CodeBuild, CodeDeploy
 </div>
 </td>
                     </tr>
@@ -59,8 +59,8 @@
 <div><span class="major">.Net<span class="score"> (5)</span></span>
     C# (.Net dotnetcore, .Net Standard), Meta-programming, Reflection, Managed Extensibility Framework (MEF), Autofac
 </div>
-<div><span class="major">javascript<span class="score"> (4)</span></span>
-    node.js, RxJs, AngularJS, Data-Driven-Document (D3)
+<div><span class="major">javascript/Typescript<span class="score"> (4)</span></span>
+    node.js, RxJs, AngularJS, ReactJS, Data-Driven-Document (D3)
 </div>
 <div>
     UML<span class="score"> (4)</span>, Python<span class="score"> (2)</span>, Powershell<span class="score"> (3)</span>, Bash<span class="score"> (1)</span>, T-SQL<span class="score"> (4)</span>, Salesforce-Apex<span class="score"> (2)</span>
@@ -137,8 +137,28 @@
                 </div>
                 <div class="projects">
                     <div>
-                        <div class="name"><a href="https://bitcentral.com/product/fuel/">FUEL Video Streaming</a></div>
-                        <div class="description">Lorem ipsum dolor sit amet, id eum vidisse prompta democritum. Id habeo dolor eos, nominati gloriatur  scribentur pri te, an vis paulo partiendo voluptatum. Simul soluta oportere ei sed, id meis tantas quo. Mea tota nihil ubique no. Dicant conclusionemque est et, porro verear tibique id pro, soleat menandri platonem quo ne.  Et eos graeci meliore. Has ut semper suscipit inciderint, mea soluta facilisi ei, vel et duis dolorem luptatum.
+                        <div class="name"><a href="https://bitcentral.com/product/fuel/">FUEL Video Streaming Engine</a></div>
+                        <div class="description">Developed HLS streaming engine components in Go, powered by AWS ECS Fargate, DynamoDB, and ElasticCache.
+</div>
+                    </div>
+                    <div>
+                        <div class="name">FUEL Media Processing Framework</div>
+                        <div class="description">Taking the initiative to address the ad processing backlog issue, prototyped a highly scalable solution using SNS, SQS  and Step Function; to start a new design discussion.  Learned from the prototype, implemented a new processing  microservice framework not only comply to business requirement, but also having the goals of  highly scalable, efficient, simple and transparent.
+</div>
+                    </div>
+                    <div>
+                        <div class="name">SpotX Video Ad Integration</div>
+                        <div class="description">Implemented an ad processing pipline integrated with SpotX Video Ad platform to support ad video delivery to  HLS streaming engine.  The workflow requests VAST from ad platform API, downlaod the mp4 ad content, convert the video file into Transport Stream - ts files, and then save the ts files to S3.
+</div>
+                    </div>
+                    <div>
+                        <div class="name">Local Dev Docker Stack</div>
+                        <div class="description">Created docker-compose scripts to containerize FUEL subsystems, which allow running the  FUEL eco-system with developing branch code on local dev box.
+</div>
+                    </div>
+                    <div>
+                        <div class="name">FUEL Analytic Schedule Event Generator</div>
+                        <div class="description">Created serverless Lambda application invoked by CloudWatch schedule event. The Lambda applications can be configured to call the Analytic API or send message to queue listened by Analytic processor.
 </div>
                     </div>
                 </div>
