@@ -73,7 +73,7 @@ overview:
           - Reflection
           - Managed Extensibility Framework (MEF)
           - Autofac
-      - name: javascript/Typescript
+      - name: javascript/TypeScript
         score: 4
         details: 
           - node.js
