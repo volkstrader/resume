@@ -45,24 +45,30 @@ overview:
     - key: AWS
       values:
       - name: CloudFormation
-      - name: Lambda / SAM
-      - name: API Gateway
-      - name: DynamoDb
       - name: S3
+      - name: Lambda / SAM
+      - name: Step Functions
+      - name: ElasticCache
+      - name: Cognito
+      - name: AppSync GraphQL
+      - name: DynamoDB
+      - name: Aurora
+      - name: Athena
+      - name: Glue
       - name: SNS
       - name: SQS
+      - name: API Gateway
       - name: Kinesis
       - name: ECS / Fargate
       - name: EC2
       - name: RDS
-      - name: Step Functions
       - name: CodePipeline
       - name: CodeBuild
       - name: CodeDeploy
     - key: Programming Frameworks
       values: 
       - name: Go
-        score: 3
+        score: 5
         details:
           - ""
       - name: .Net
@@ -84,12 +90,12 @@ overview:
       - name: UML
         score: 4
       - name: Python
-        score: 2
+        score: 3
       - name: Powershell
         score: 3
       - name: Bash
-        score: 1
-      - name: T-SQL
+        score: 3
+      - name: SQL
         score: 4
       - name: Salesforce-Apex
         score: 2
@@ -99,18 +105,18 @@ overview:
         score: 4
       - name: GCP
         score: 2
-      - name: Azure
-        score: 1
       - name: Docker
-        score: 3
+        score: 4
       - name: Linux
-        score: 2
+        score: 3
       - name: Windows
         score: 5
       # - name: Team Foundation Server 2017 (TFS)
       #   score: 5
       - name: Git
-        score: 3
+        score: 4
+      - name: CircleCI
+        score: 4
       # - name: Confluence
       #   score: 3
       # - name: Jira
@@ -119,22 +125,22 @@ overview:
         score: 3
     - key: Databases
       values:
-      - name: MS SQL Server
-        score: 4
-      - name: MySQL
-        score: 1
       - name: DynamoDb
         score: 3
-      - name: Redis
-        score: 2
+      - name: Redis / LUA
+        score: 4
+      - name: Aurora / MySQL
+        score: 3
+      - name: MS SQL Server
+        score: 4
       - name: ElasticSearch / LogStash / FileBeat
         score: 2
-      - name: Couchbase
-        score: 1
-      - name: MongoDb
-        score: 1
+#      - name: Couchbase
+#        score: 1
+#      - name: MongoDb
+#        score: 1
       - name: PostgreSQL
-        score: 1
+        score: 3
     - key: Services Packages
       values:
       # - name: Redgate SQLClone
@@ -145,13 +151,23 @@ overview:
       - name: Google Tag Manager (GTM)
       - name: Twilio
 history:
+  - id: nom
+    company: Not Ordinary Media, LLC
+    office: Los Angeles, CA
+    title: Lead Backend Software Engineer
+    start:
+      year: 2018
+      month: 12
   - id: bitcentral
     company: Bitcentral, Inc
     office: Newport Beach, CA
     title: Principal Software Engineer
     start:
       year: 2018
-      month: 1    
+      month: 1
+    end:
+      year: 2018
+      month: 12
   - id: etcpt
     company: ETC Processing Technologies LLC
     office: Los Angeles, CA
