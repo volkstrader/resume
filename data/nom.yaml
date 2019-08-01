@@ -1,0 +1,15 @@
+---
+- name: AdIntelligence - Brand Optimized Video Solution
+  url: https://www.thisisnom.co/video-solutions#cross-platform
+  description: >
+    Developed HLS streaming engine components in Go, powered by AWS ECS Fargate, DynamoDB, and ElasticCache.
+- name: API Proxy
+  description: >
+    Taking the initiative to address the ad processing backlog issue, prototyped a highly scalable solution using SNS, SQS
+    and Step Function; to start a new design discussion.  Learned from the prototype, implemented a new processing
+    microservice framework not only comply to business requirement, but also having the goals of
+    highly scalable, efficient, simple and transparent.
+- name: Media Audit
+  url: https://www.thisisnom.co/brand-safety#MediaAudit
+  description: >
+
