@@ -45,8 +45,9 @@ overview:
     - key: AWS
       values:
       - name: CloudFormation
-      - name: Lambda / SAM
       - name: S3
+      - name: Lambda / SAM
+      - name: Step Functions
       - name: ElasticCache
       - name: Cognito
       - name: AppSync GraphQL
@@ -61,7 +62,6 @@ overview:
       - name: ECS / Fargate
       - name: EC2
       - name: RDS
-      - name: Step Functions
       - name: CodePipeline
       - name: CodeBuild
       - name: CodeDeploy
@@ -152,7 +152,7 @@ overview:
       - name: Twilio
 history:
   - id: nom
-    company: NOM
+    company: Not Ordinary Media, LLC
     office: Los Angeles, CA
     title: Lead Backend Software Engineer
     start:
