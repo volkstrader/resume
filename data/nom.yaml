@@ -2,36 +2,32 @@
 - name: AdIntelligence - Brand Optimized Video Solution
   url: https://www.thisisnom.co/video-solutions#cross-platform
   description: >
-    AdIntelligence was a new platform product that not only managing Youtube video ads, but also having the capability to integrate with other social platform,
-    such as Facebook and Twitter ...  This project was a complete replacement of Media Audit Django (MA1).
+    AdIntelligence is a new platform replacing Django based MA1, that not only managing Youtube video ads, but also having the capability to integrate with other social platform, such as Facebook and Twitter ...
     User management and authentication component was replaced by Cognito;
     Django RESTful API microservice was replaced by AppSync GraphQL API;
     PostgreSQL RDS was replaced by S3 data lake (Parquet, Glue, Athena), DynamoDB and Serverless Aurora.
-    I was responsible for architecture design and technical project management, developer onboarding automation, CloudFormation and CircleCI CI/CD automation, and code reviews.
-    The project is still under development.
-- name: MediaAudit 2.0 (MA2) - Serverless Brand Safety Video Solution
+    I was responsible for architecture design and technical management, developer onboarding automation, CloudFormation and CircleCI deployment automation, and code reviews.
+- name: MediaAudit 2.0 (MA2) - Lambda Serverless Brand Safety Video Solution
   url: https://www.thisisnom.co/brand-safety#MediaAudit
   description: >
-    Base on the success of API Proxy prototype, the CTO and other developers convinced the potential of the serverless architecture.
-    I was tasked to reinvent Media Audit ingestion workflow to address the django performance limitation.
-    The new design decomposed original data ingestion workflow into multiple lambda, and also made use of S3 and Glue as data lake to
-    store and catalog large amount of AdWords campaign performance data.
-    This solution has significantly reduced the processing time and huge saving in storage cost.
+    Base on the success of API Proxy, the CTO and other developers convinced the potential of the serverless architecture.
+    Hence, reinvent AdWords performance report CSV ingestion workflow to address the django performance limitation, using serverless architecture.
+    The new design decomposed original data ingestion workflow into multiple lambda triggered by S3 bucket events, SQS, SNS and StepFunction;
+    using S3 and Glue as data lake to store and catalog large amount of AdWords campaign/Youtube video performance data.
+    This solution has significantly reduced the processing time and huge saving in storage cost compare with pure PostgreSQL RDS storage.
 - name: API Proxy
   description: >
-    The company was suffering from Youtube Data API quota limitation, which constrained video meta data consumption at scale.
-    I proposed and prototyped an API Proxy solution which rotate and throttle multiple API keys using Redis and LUA script.
-    The proxy execution logic was implemented with AWS lambda Go runtime, invoked by SQS event, driven by StepFunctions workflow.
-    The complete solution is packaged with SAM for lambda, and CloudFormation for provisioning VPC and ElasticCache related resources.
-    The solution has solved the physical limitation on API key quota and proved the advantage of serverless architecture.
+    Serverless service which not only resolved Youtube Data API quota limitation constraining video meta data fetching - daily volume (10K - 500K).  The API Proxy solution combines multiple API keys into a single pool, using Redis and LUA script to rotate and throttle key usage.
+    The proxy execution logic was implemented with AWS lambda Go runtime, invoked by SQS, and StepFunctions workflow.
+    The complete solution was packaged with SAM for lambda, and CloudFormation for provisioning VPC and ElasticCache related resources.
+    The solution has solved the physical limitation on API key quota restriction and proved the advantage of serverless architecture.
 - name: Media Audit (MA1) - Brand Safety Video Solution
   url: https://www.thisisnom.co/brand-safety#MediaAudit
   description: >
-    Media Audit was a Python Django application built by oversea contractors and it was having code merge and deployment complication.
-    I was tasked to create and fully document a new Software Development Lifecycle Process,
-    which covered from defining the Roles and Duties, Jira Sprint Management,
+    Created a new Software Development Lifecycle Process to resovle inconsistent production deployment issue.
+    Documented the new process in Confluence Wiki with topics defining Roles and Duties, Jira Sprint Management,
     Codebase Workflow Management based on GitFlow - branching and versioning with GitHub,
-    Release Process Management - automation and communication.  After implementing the new SDLC process,
-    time spent on preparing and releasing new code to multiple environments reduced from day to less than 30 minutes.
+    Release Process Management - Jenkins and Teraform automation and team communication.
+    After implementing the new SDLC process, time spent on preparing and releasing new code to multiple environments reduced from day to less than 30 minutes.
 
 
