@@ -151,6 +151,13 @@ overview:
       - name: Google Tag Manager (GTM)
       - name: Twilio
 history:
+  - id: plutotv
+    company: PlutoTV
+    office: West Hollywood, CA
+    title: Senior Backend Software Engineer
+    start:
+      year: 2019
+      month: 9
   - id: nom
     company: Not Ordinary Media, LLC
     office: Los Angeles, CA
@@ -158,6 +165,9 @@ history:
     start:
       year: 2018
       month: 12
+    end:
+      year: 2019
+      month: 7
   - id: bitcentral
     company: Bitcentral, Inc
     office: Newport Beach, CA
