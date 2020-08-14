@@ -91,56 +91,26 @@
                 </table>
             </section>
         </section>
-        <section class="history">
-            <div class="heading">Employment History</div>
-            <div class="row">
-                <div class="left-col">
-                    <span class="job-title">Lead Backend Software Engineer,</span>
-                    <span class="job-company">Not Ordinary Media, LLC,</span>
-                    <span class="job-office">Los Angeles, CA</span>
-                </div>
-                <div class="job-span right-col">
-                    <span class="job-start">12/2018-</span>
-                    <span class="job-end">Present</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="left-col">
-                    <span class="job-title">Principal Software Engineer,</span>
-                    <span class="job-company">Bitcentral, Inc,</span>
-                    <span class="job-office">Newport Beach, CA</span>
-                </div>
-                <div class="job-span right-col">
-                    <span class="job-start">1/2018-</span>
-                    <span class="job-end">12/2018</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="left-col">
-                    <span class="job-title">Software Architect / Senior Software Engineer,</span>
-                    <span class="job-company">ETC Processing Technologies LLC,</span>
-                    <span class="job-office">Los Angeles, CA</span>
-                </div>
-                <div class="job-span right-col">
-                    <span class="job-start">12/2016-</span>
-                    <span class="job-end">12/2017</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="left-col">
-                    <span class="job-title">Senior Software Engineer,</span>
-                    <span class="job-company">CoStar Group,</span>
-                    <span class="job-office">Ontario, CA</span>
-                </div>
-                <div class="job-span right-col">
-                    <span class="job-start">4/2011-</span>
-                    <span class="job-end">12/2016</span>
-                </div>
-            </div>
-            <div>Previous employments available upon request</div>
-        </section>
-        <section class="experiences">
+       <section class="experiences">
             <div class="heading">Recent Professional Experiences</div>
+            <div class="job-experience">
+                <div class="row">
+                    <span class="job-title left-col-half">Senior Backend Software Engineer</span>
+                    <span class="job-location right-col-half">PlutoTV, West Hollywood, CA</span>
+                </div>
+                <div class="projects">
+                    <div>
+                        <div class="name">Developer Role</div>
+                        <div class="description">Developed and maintained PlutoTV CoreAPI microservices, servicing content and user data to PlutoTV apps on multiple platforms, such as iOS devices, Android devices, Roku, FireTV, Samsung TV, web browsers, Chromecast video, game consoles ... PlutoTV apps render channels lineup, channel timelines, VOD titles, user watchlist and resume point to customers. Millions of active customers are watching PlutoTV linear or VOD videos in different regions of the world. CoreAPI microservices are highly scalable to provide reliable level of service to customers, from hundreds to thousands RPS. Developer responsible for full development lifecycle - coding, peer code review, deployment, service monitoring pager duty,
+</div>
+                    </div>
+                    <div>
+                        <div class="name">Golang Evangelist Role</div>
+                        <div class="description">Developed Golang microservice template for PlutoTV Core API team using labstack echo web framework and Uber dig dependency injection framework. Also developed common modules libraries, such as config, logging, http, echo CORS middleware, DI wrapper ...; for components sharing with Golang microservice projects.  These common libraries are actively growing organically within team. Promoted and enforced general coding pattern and style, coverage test practice to other team members through refactoring and pull request review. Gave guidance and in depth code review for new junior developers work. Made presentation to help other teams adopting Golang microservice template.
+</div>
+                    </div>
+                </div>
+            </div>
             <div class="job-experience">
                 <div class="row">
                     <span class="job-title left-col-half">Lead Backend Software Engineer</span>
@@ -149,22 +119,22 @@
                 <div class="projects">
                     <div>
                         <div class="name"><a href="https://www.thisisnom.co/video-solutions#cross-platform">AdIntelligence - Brand Optimized Video Solution</a></div>
-                        <div class="description">AdIntelligence was a new platform product that not only managing Youtube video ads, but also having the capability to integrate with other social platform, such as Facebook and Twitter ...  This project was a complete replacement of Media Audit Django (MA1). User management and authentication component was replaced by Cognito; Django RESTful API microservice was replaced by AppSync GraphQL API; PostgreSQL RDS was replaced by S3 data lake (Parquet, Glue, Athena), DynamoDB and Serverless Aurora. I was responsible for architecture design and technical project management, developer onboarding automation, CloudFormation and CircleCI CI/CD automation, and code reviews. The project is still under development.
+                        <div class="description">AdIntelligence is a new platform replacing Django based MA1, that not only managing Youtube video ads, but also having the capability to integrate with other social platform, such as Facebook and Twitter ... User management and authentication component was replaced by Cognito; Django RESTful API microservice was replaced by AppSync GraphQL API; PostgreSQL RDS was replaced by S3 data lake (Parquet, Glue, Athena), DynamoDB and Serverless Aurora. I was responsible for architecture design and technical management, developer onboarding automation, CloudFormation and CircleCI deployment automation, and code reviews.
 </div>
                     </div>
                     <div>
-                        <div class="name"><a href="https://www.thisisnom.co/brand-safety#MediaAudit">MediaAudit 2.0 (MA2) - Serverless Brand Safety Video Solution</a></div>
-                        <div class="description">Base on the success of API Proxy prototype, the CTO and other developers convinced the potential of the serverless architecture. I was tasked to reinvent Media Audit ingestion workflow to address the django performance limitation. The new design decomposed original data ingestion workflow into multiple lambda, and also made use of S3 and Glue as data lake to store and catalog large amount of AdWords campaign performance data. This solution has significantly reduced the processing time and huge saving in storage cost.
+                        <div class="name"><a href="https://www.thisisnom.co/brand-safety#MediaAudit">MediaAudit 2.0 (MA2) - Lambda Serverless Brand Safety Video Solution</a></div>
+                        <div class="description">Base on the success of API Proxy, the CTO and other developers convinced the potential of the serverless architecture. Hence, reinvent AdWords performance report CSV ingestion workflow to address the django performance limitation, using serverless architecture. The new design decomposed original data ingestion workflow into multiple lambda triggered by S3 bucket events, SQS, SNS and StepFunction; using S3 and Glue as data lake to store and catalog large amount of AdWords campaign/Youtube video performance data. This solution has significantly reduced the processing time and huge saving in storage cost compare with pure PostgreSQL RDS storage.
 </div>
                     </div>
                     <div>
                         <div class="name">API Proxy</div>
-                        <div class="description">The company was suffering from Youtube Data API quota limitation, which constrained video meta data consumption at scale. I proposed and prototyped an API Proxy solution which rotate and throttle multiple API keys using Redis and LUA script. The proxy execution logic was implemented with AWS lambda Go runtime, invoked by SQS event, driven by StepFunctions workflow. The complete solution is packaged with SAM for lambda, and CloudFormation for provisioning VPC and ElasticCache related resources. The solution has solved the physical limitation on API key quota and proved the advantage of serverless architecture.
+                        <div class="description">Serverless service which not only resolved Youtube Data API quota limitation constraining video meta data fetching - daily volume (10K - 500K).  The API Proxy solution combines multiple API keys into a single pool, using Redis and LUA script to rotate and throttle key usage. The proxy execution logic was implemented with AWS lambda Go runtime, invoked by SQS, and StepFunctions workflow. The complete solution was packaged with SAM for lambda, and CloudFormation for provisioning VPC and ElasticCache related resources. The solution has solved the physical limitation on API key quota restriction and proved the advantage of serverless architecture.
 </div>
                     </div>
                     <div>
                         <div class="name"><a href="https://www.thisisnom.co/brand-safety#MediaAudit">Media Audit (MA1) - Brand Safety Video Solution</a></div>
-                        <div class="description">Media Audit was a Python Django application built by oversea contractors and it was having code merge and deployment complication. I was tasked to create and fully document a new Software Development Lifecycle Process, which covered from defining the Roles and Duties, Jira Sprint Management, Codebase Workflow Management based on GitFlow - branching and versioning with GitHub, Release Process Management - automation and communication.  After implementing the new SDLC process, time spent on preparing and releasing new code to multiple environments reduced from day to less than 30 minutes.
+                        <div class="description">Created a new Software Development Lifecycle Process to resovle inconsistent production deployment issue. Documented the new process in Confluence Wiki with topics defining Roles and Duties, Jira Sprint Management, Codebase Workflow Management based on GitFlow - branching and versioning with GitHub, Release Process Management - Jenkins and Teraform automation and team communication. After implementing the new SDLC process, time spent on preparing and releasing new code to multiple environments reduced from day to less than 30 minutes.
 </div>
                     </div>
                 </div>
@@ -267,7 +237,66 @@
                 </div>
             </div>
         </section>
-        <section class="recognitions">
+        <section class="history">
+            <div class="heading">Employment History</div>
+            <div class="row">
+                <div class="left-col">
+                    <span class="job-title">Senior Backend Software Engineer,</span>
+                    <span class="job-company">PlutoTV,</span>
+                    <span class="job-office">West Hollywood, CA</span>
+                </div>
+                <div class="job-span right-col">
+                    <span class="job-start">9/2019-</span>
+                    <span class="job-end">Present</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-col">
+                    <span class="job-title">Lead Backend Software Engineer,</span>
+                    <span class="job-company">Not Ordinary Media, LLC,</span>
+                    <span class="job-office">Los Angeles, CA</span>
+                </div>
+                <div class="job-span right-col">
+                    <span class="job-start">12/2018-</span>
+                    <span class="job-end">7/2019</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-col">
+                    <span class="job-title">Principal Software Engineer,</span>
+                    <span class="job-company">Bitcentral, Inc,</span>
+                    <span class="job-office">Newport Beach, CA</span>
+                </div>
+                <div class="job-span right-col">
+                    <span class="job-start">1/2018-</span>
+                    <span class="job-end">12/2018</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-col">
+                    <span class="job-title">Software Architect / Senior Software Engineer,</span>
+                    <span class="job-company">ETC Processing Technologies LLC,</span>
+                    <span class="job-office">Los Angeles, CA</span>
+                </div>
+                <div class="job-span right-col">
+                    <span class="job-start">12/2016-</span>
+                    <span class="job-end">12/2017</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-col">
+                    <span class="job-title">Senior Software Engineer,</span>
+                    <span class="job-company">CoStar Group,</span>
+                    <span class="job-office">Ontario, CA</span>
+                </div>
+                <div class="job-span right-col">
+                    <span class="job-start">4/2011-</span>
+                    <span class="job-end">12/2016</span>
+                </div>
+            </div>
+            <div>Previous employments available upon request</div>
+        </section>
+         <section class="recognitions">
             <div class="heading">Recognitions</div>
             <div class="row">
                 <div class="left-col">Nominated CoStar Innovation Award</div>
@@ -292,3 +321,4 @@
 </body>
 
 </html>
+
