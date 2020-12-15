@@ -7,6 +7,12 @@
     Millions of active customers are watching PlutoTV linear or VOD videos in different regions of the world.
     CoreAPI microservices are highly scalable to provide reliable level of service to customers, from hundreds to thousands RPS.
     Developer responsible for full development lifecycle - coding, peer code review, deployment, service monitoring pager duty,
+- name: Digital Rights Management (DRM) Services lead Developer
+  description: >
+    Integrated Apple FairPlay DRM C library into Golang microservice with cgo.
+    Built Key Management Service KMS for generating, storing and retrieving video encryption key data, using MongoDB as backend storage.
+    Research AWS Aurora as backend storage replacement for MongoDB.
+    Built highly scalable, low latency Concierge Service to provide DRM data for front-end PlutoTV players. 
 - name: Golang Evangelist Role
   description: >
     Developed Golang microservice template for PlutoTV Core API team using labstack echo web framework and Uber dig dependency injection framework.
