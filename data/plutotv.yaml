@@ -10,6 +10,7 @@
     Built Key Management Service KMS for generating, storing and retrieving video encryption key data, using MongoDB as backend storage.
     Built highly scalable, low latency Concierge Service to provide DRM data for front-end PlutoTV players. 
 - name: Watchlist Resume Point Service
+  description: >
     Built highly scalable Golang microservice to manage watchlist and resume point end-user media consumption data.
     Built AWS lambda worker to throttle write request loads to Postgres RDS database.   
     Research AWS Aurora as backend storage replacement of Postgres RDS for better scalability and fault torlerance.
