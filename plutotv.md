@@ -1,49 +1,71 @@
-# Digital Right Management (DRM) Service
+# Enterprise Platform team
 ## Intro
-DRM service support 3 major license challenge protocols for video playback copyright protection.  In addition, a KMS to manage secret keys for video clips encryption.
 
 ## Background
-PlutoTV had a contractual obligation to deliver HD contents with copyright protection.  I was tasked to create a DRM Service
-* to provide Fairplay support for HLS playback on Apple devices and Safari browser
-* to provide Widevine support for DASH playback on Android devices
-* to provide PlayRead support for XBox and PlayStation5 DASH playback
-* to provide high scalability, low read latency encryption key management
 
 ## Highlight
-* Design and implement asychronous workflow using Confluence Kafka for job queue and Kubernetes cron job execution
-* Document archtecutre design and submit for archtecture team review and approval
-* Use CGO to complie Fairplay C source code, and interop with Go service
-* Debug Fairplay C source memory leak with valgrind
-  
-## Imapact
-* A stable and highly scalable platform to support
-  * Vidoe encryption workflow
-  * DRM challenge for every copyright protected video played on PlutoTV
-
-# SWAT Team
-## Intro
-SWAT Team is a temporary enginerring organizattion to support high priority cross team initiative
-
-## Background
-Migrate service infrastructure from AWS EC2/ECS to EKS for
-* cost of operation optimization
-* multi-cloud deployment
-
-## Highlight
-* Work with DevOps team to develop standards for golang micro-services in Kubernetes runtime environment
-  * use ConfigMap for configuration with live update
-  * sync HashiCorp Vault secret with Kubernetes secret store with ExternalSecrets
-  * standardize GitHub Action golang micro-service build workflow
-* Develop micro-libraries
-  * breakup monolithic core library into multiple limited purpose micro-libraries
-* Develope codegen to standardize boilerplate code artifacts
-  * codegen boilerplate code: secret wireup, certain standard dependency wireup
-  * codegen projectt non-go artifacts: Makefile, GitHub Action yamls, Dockerfile, Helm chart, config files ...
-* Reform development life cycle from GitFlow to Release First Branching Model
-  * Publish Release First Branching Model documentation
-  * Promote and assist other teams to adopt the new process
 
 ## Impact
-* 
 
-# Enterprise Platform team
+---
+# SWAT Team  
+
+## Introduction  
+The SWAT Team is a temporary engineering organization formed to support high-priority cross-team initiatives.  
+
+## Background  
+The team was tasked with migrating service infrastructure from AWS EC2/ECS to EKS to achieve:  
+- **Cost Optimization:** Reducing operational expenses.  
+- **Multi-Cloud Deployment:** Enabling a more flexible and scalable cloud architecture.  
+
+## Highlights  
+
+### **Collaboration with DevOps**  
+- Developed Kubernetes standards for Go microservices:  
+  - **ConfigMap Integration:** Enabled live updates for service configuration.  
+  - **Secret Management:** Synchronized HashiCorp Vault secrets with Kubernetes Secret Store using ExternalSecrets.  
+  - **CI/CD Standardization:** Created a standardized GitHub Action build workflow for Go microservices.  
+
+### **Micro-Libraries Development**  
+- Refactored the monolithic core library into focused micro-libraries with clear responsibilities.  
+
+### **Code Generation (Codegen) Tooling**  
+- Automated the generation of boilerplate code and project artifacts, including:  
+  - Secret and dependency wiring.  
+  - Non-Go files like Makefiles, GitHub Action YAMLs, Dockerfiles, Helm charts, and config files.  
+
+### **Development Lifecycle Reform**  
+- Replaced GitFlow with the **Release-First Branching Strategy:**  
+  - Published detailed documentation on the new process.  
+  - Promoted and assisted other teams in adopting the updated workflow.  
+
+## Impact  
+- **Faster Migrations:** Reduced service migration time from sprints to just a few days using standard templates and codegen.  
+- **Simplified Maintenance:** Standardized boilerplate updates, reducing manual updates to two simple commands.  
+- **Community Building:** Fostered a cross-team community for maintaining and improving micro-libraries.  
+- **Leadership Endorsement:** Engineering VPs advocated for full adoption of the Release-First Branching Strategy across the organization.
+
+---
+# Digital Rights Management (DRM) Service  
+
+## Introduction  
+The DRM service supports three major license challenge protocols for video playback copyright protection. It also includes a Key Management System (KMS) for managing secret keys used in video encryption.  
+
+## Background  
+PlutoTV had a contractual obligation to deliver HD content with copyright protection. I was tasked with creating a DRM service that:  
+- Supports **FairPlay** for HLS playback on Apple devices and the Safari browser  
+- Supports **Widevine** for DASH playback on Android devices  
+- Supports **PlayReady** for DASH playback on Xbox and PlayStation 5  
+- Provides high scalability and low-latency encryption key management  
+
+## Highlights  
+- **Asynchronous Workflow Design:** Implemented using Confluent Kafka for job queuing and Kubernetes Cron Jobs for task execution.  
+- **Architecture Documentation:** Designed and documented the system architecture, submitting it for review and approval by the architecture team.  
+- **FairPlay Integration:** Used CGO to compile FairPlay C source code and integrated it with the Go service.  
+- **Memory Leak Debugging:** Diagnosed and resolved FairPlay C source memory leaks using Valgrind.  
+
+## Impact  
+The project resulted in a stable, highly scalable platform that supports:  
+- **Video Encryption Workflow:** Efficiently managing video encryption processes.  
+- **DRM License Challenges:** Handling copyright-protected video playback on PlutoTV across multiple devices.
+
