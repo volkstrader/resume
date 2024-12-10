@@ -10,12 +10,8 @@ The Enterprise Platform team builds **Command Center**, a centralized platform c
 - **Standard Authorization:** Managed via permit.io SaaS for consistent access control.  
 - **Micro-Frontend Strategy:** Enables seamless federation of multiple internal applications into a unified platform.  
 
----
-
 ### Background  
 After completing my SWAT Team duties, I was invited to create a new team tasked with building the Command Center from a high-level architectural concept.  
-
----
 
 ### Highlights  
 
