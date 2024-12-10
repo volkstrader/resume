@@ -1,11 +1,42 @@
-# Enterprise Platform team
-## Intro
+# Enterprise Platform Team  
 
-## Background
+## Introduction  
+The Enterprise Platform team builds **Command Center**, a centralized platform consolidating internal applications into a single point of entry.  
 
-## Highlight
+### Key Features:  
+- **Standard Authentication:** Integrated with corporate OKTA for secure identity management.  
+- **Standard Authorization:** Managed via permit.io SaaS for consistent access control.  
+- **Micro-Frontend Strategy:** Enables seamless federation of multiple internal applications into a unified platform.  
 
-## Impact
+---
+
+## Background  
+After completing my SWAT Team duties, I was invited to create a new team tasked with building the Command Center from a high-level architectural concept.  
+
+---
+
+## Highlights  
+
+### **Leadership & Management**  
+- Built the team from the ground up, including hiring and people management.  
+- Made design decisions based on **ROI trade-offs** to balance cost and performance.  
+
+### **Technical Decisions**  
+- Conducted a **Buy vs. Build Analysis** for permit.io authorization SaaS and navigated the corporate procurement process.  
+- Architected hosting infrastructure using **S3/CloudFront** with full CI/CD pipelines and **Terraform** for infrastructure provisioning.  
+
+### **Innovation & Automation**  
+- Introduced **Impersonation Support** to bypass manual MFA, enabling automated test workflows.  
+- Designed a **Standard Onboarding Workflow** using JIRA templates for process consistency.  
+- Automated onboarding tasks using **GitHub Actions** for efficiency.  
+- Researched and adopted **HTMX** to reduce frontend development costs.  
+
+---
+
+## Impact  
+
+- **Simplified Development:** Streamlined internal application development through standardized processes and automation.  
+- **Vision Realization:** Transformed an executive-level vision into a fully operational product, driving organizational efficiency and scalability.
 
 ---
 # SWAT Team  
