@@ -29,8 +29,6 @@ After completing my SWAT Team duties, I was invited to create a new team tasked 
 - Automated onboarding tasks using **GitHub Actions** for efficiency.  
 - Researched and adopted **HTMX** to reduce frontend development costs.  
 
----
-
 ### Impact  
 
 - **Simplified Development:** Streamlined internal application development through standardized processes and automation.  
