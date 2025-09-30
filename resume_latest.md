@@ -1,10 +1,10 @@
 # Chuck Chau
 Senior Engineering Leader | Platform Architecture | Cloud Infrastructure
 
-[LinkedIn](https://www.linkedin.com/in/cchau2/)
+[LinkedIn](https://www.linkedin.com/in/cchau2/) | [GitHub](https://github.com/volkstrader)
 
 ## Professional Summary
-Results-driven Senior Lead Engineer with 5+ years at PlutoTV/Paramount, executing high-impact platform transformations and spearheading cross-functional engineering initiatives with a strong bias to action. Proven track record of rapidly building teams from the ground up, architecting enterprise platforms, and delivering mission-critical services that drive measurable business outcomes. Expert in Go microservices, Kubernetes orchestration, and cloud-native architectures with demonstrated success in accelerating system reliability improvements and eliminating operational complexity through decisive technical leadership.
+Results-driven Principal Engineer with 5+ years at PlutoTV/Paramount, executing high-impact platform transformations and spearheading cross-functional engineering initiatives with a strong bias to action. Proven track record of rapidly building teams from the ground up, architecting enterprise platforms, and delivering mission-critical services that drive measurable business outcomes. Expert in Go microservices, Kubernetes orchestration, and cloud-native architectures with demonstrated success in accelerating system reliability improvements and eliminating operational complexity through decisive technical leadership.
 
 ## Recent Professional Experience
 
@@ -18,9 +18,9 @@ Results-driven Senior Lead Engineer with 5+ years at PlutoTV/Paramount, executin
 *Team Lead & Founding Architect*
 
 **Leadership & Strategic Impact:**
-- Founded and built Enterprise Platform team from inception, establishing hiring processes and team structure
-- Transformed executive architectural vision into fully operational platform consolidating multiple internal applications
-- Delivered centralized platform with unified authentication and authorization for all internal tools
+- Founded and scaled Enterprise Platform team from zero to fully functional unit, implementing rigorous hiring and performance management processes
+- Transformed executive architectural vision into production-ready platform, consolidating fragmented internal applications into unified ecosystem
+- Delivered enterprise-grade centralized platform with seamless SSO and granular authorization, eliminating authentication friction across organization
 
 **Technical Achievements:**
 - Architected micro-frontend platform serving internal users across the organization
@@ -34,13 +34,13 @@ Results-driven Senior Lead Engineer with 5+ years at PlutoTV/Paramount, executin
 *Technical Lead*
 
 **Mission-Critical Migration Leadership:**
-- Led high-priority initiative to migrate entire service infrastructure from AWS ECS to EKS
-- Reduced service migration timeline from multiple sprints to just days through standardization and code generation
-- Successfully migrated services while maintaining production stability
+- Spearheaded critical infrastructure transformation, orchestrating company-wide migration from AWS ECS to EKS
+- Revolutionized service migration velocity from multi-sprint efforts to single-day deployments through aggressive automation
+- Executed zero-downtime migration strategy across production services, maintaining continuous availability during transition
 
 **Technical Excellence:**
-- Developed and enforced Kubernetes standards for Go microservices across the organization
-- Created comprehensive codegen tooling automating boilerplate code generation
+- Established and enforced organization-wide Kubernetes standards for Go microservices, driving consistency across all teams
+- Engineered sophisticated codegen framework significantly reducing boilerplate development overhead
 - Refactored monolithic core library into focused micro-libraries with clear domain boundaries
 - Implemented Release-First Branching Strategy, gaining VP Engineering endorsement for company-wide adoption
 
@@ -53,9 +53,9 @@ Results-driven Senior Lead Engineer with 5+ years at PlutoTV/Paramount, executin
 *Technical Lead & Subject Matter Expert*
 
 **Business-Critical Platform Development:**
-- Delivered DRM service enabling HD content delivery to fulfill contractual obligations
-- Architected multi-protocol system supporting FairPlay (Apple), Widevine (Android), and PlayReady (Xbox/PS5)
-- Ensured high availability for license challenge service handling millions of daily requests
+- Delivered business-critical DRM service unlocking HD content monetization and fulfilling strategic partner contracts
+- Architected unified multi-protocol DRM platform supporting FairPlay, Widevine, and PlayReady across entire device ecosystem
+- Ensured high availability for license challenge service processing millions of daily authentication requests
 
 **Technical Implementation:**
 - Designed asynchronous workflow using Confluent Kafka for job queuing with Kubernetes Cron Jobs
@@ -86,7 +86,7 @@ Results-driven Senior Lead Engineer with 5+ years at PlutoTV/Paramount, executin
 ### Leadership Roles
 - **Go Champion:** Conduct code reviews and enforce best practices across multiple teams
 - **Process Reformer:** Drive SDLC improvements promoting shift-left and continuous delivery
-- **Standards Advocate:** Active member of API Standards & Best Practices in Community of Practice
+- **Standards Advocate:** Active member of API Standards & Best Practices Community of Practice
 - **Technical Mentor:** Guide peer engineers on architecture, language features, and conventions
 - **Hiring Manager:** Design technical interviews and build high-performing engineering teams
 
@@ -99,8 +99,8 @@ Results-driven Senior Lead Engineer with 5+ years at PlutoTV/Paramount, executin
 - Delivered enterprise-grade DRM solution supporting all major streaming platforms
 
 ### Leadership & Innovation
-- Successfully built and led multiple engineering teams from inception
-- Introduced AI-assisted development practices to improve team productivity
+- Built and scaled multiple high-performing engineering teams from zero, maintaining exceptional retention rates
+- Pioneered AI-assisted development workflows, achieving measurable productivity gains across engineering organization
 - Established engineering standards and best practices adopted organization-wide
 - Created reusable libraries and tools reducing development time across teams
 
