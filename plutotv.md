@@ -24,13 +24,14 @@ After completing my SWAT Team duties, I was invited to create a new team tasked 
 - Architected hosting infrastructure using **S3/CloudFront** with full CI/CD pipelines and **Terraform** for infrastructure provisioning.  
 
 #### **Innovation & Automation**  
+- Pioneer **Spec Driven Development with AI** in development workflow
+- Avocate **Documentation as Code** to enable AI to leverage documentation as context
 - Introduced **Impersonation Support** to bypass manual MFA, enabling automated test workflows.  
 - Designed a **Standard Onboarding Workflow** using JIRA templates for process consistency.  
 - Automated onboarding tasks using **GitHub Actions** for efficiency.  
 - Researched and adopted **HTMX** to reduce frontend development costs.  
 
 ### Impact  
-
 - **Simplified Development:** Streamlined internal application development through standardized processes and automation.  
 - **Vision Realization:** Transformed an executive-level vision into a fully operational product, driving organizational efficiency and scalability.
 
